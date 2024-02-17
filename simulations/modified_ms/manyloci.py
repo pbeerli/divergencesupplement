@@ -22,7 +22,7 @@ sites = msarg[index+1]
 ms = " ".join(filter(None, msarg))
 #print "@",ms,"@"
 os.system(ms+" | grep \"^(\" > gugus")
-g = open("gugus","rU")
+g = open("gugus","r")
 print "#SN"
 print "#-1"
 print "#"+str(numpop)
